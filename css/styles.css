@@ -27,7 +27,7 @@ body {
 
 
 
-/* section title (3,4) */
+/*PAGE 1 section 3,4 title */
 .heading {
     font-size: 36px;
     line-height: 1.11;
@@ -38,7 +38,23 @@ body {
 
 }
 
-/* logo */
+/* PAGE 1 section2; PAGE 2 section (TITTLE and TEXT)*/
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate, #434455);
+}
+
+
 /* header logo */
 .logo {
     color: var(--iris);
@@ -135,19 +151,9 @@ body {
 }
 
 /* section 2 */
-.subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
-}
 
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
+
 
 /* section 3 */
 
@@ -188,4 +194,22 @@ body {
     color: var(--cloud, #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+/* main section paige 2 */
+.filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--ocean);
+    color: var(--white);
 }
