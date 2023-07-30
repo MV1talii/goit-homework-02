@@ -27,6 +27,17 @@ body {
     --cloud: #F4F4FD;
 }
 
+/* section title (3,4) */
+.heading {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue);
+
+}
+
 
 
 
@@ -51,40 +62,110 @@ body {
 /* list */
 .nav-list-item {
     color: var(--navyblue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: #404bbf
 }
 
 .address {
     font-style: normal;
-
 }
 
 .address-list-item {
-    color: var(--navyblue);
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .address-list-item:hover,
-.address-list-item:focus {}
+.address-list-item:focus {
+    color: var(--ocean);
+}
+
+/* main content */
+.section-effective {
+    background-color: var(--navyblue);
+}
+
+.main-title {
+    color: var(--white);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    background-color: var(--iris);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--ocean);
+}
+
+/* section 2 */
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* section 3 */
+
+
+/* section 4 */
+.team-box {
+    background-color: var(--cloud);
+}
+
+.item-team-box {
+    background-color: var(--white);
+}
+
+.name-titlle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue)
+}
+
+.team-box-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
 
 
 
 
 
+/* footer */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* logof */
 
 .logo-footer {
     color: var(--iris);
@@ -101,7 +182,7 @@ body {
     color: var(--cloud);
 }
 
-/* footer */
+
 .footer {
     background-color: var(--navyblue);
 
@@ -109,4 +190,6 @@ body {
 
 .footer-text {
     color: var(--cloud, #F4F4FD);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
